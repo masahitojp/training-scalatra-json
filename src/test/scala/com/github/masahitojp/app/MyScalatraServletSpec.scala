@@ -22,7 +22,7 @@ class MyScalatraServletSpec extends ScalatraFunSuite {
   test("json post") {
 
 
-     post("/json", """{"id":1, "age":20, "name":"あ"}""".toString,
+     post("/json", """{"id":1, "age":20, "name":"あ"}""",
        Map("Content-Type" -> "application/json;charset=UTF-8",
          "accept-charset" -> "utf-8")) {
       status should equal (200)
