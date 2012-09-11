@@ -1,5 +1,5 @@
 import com.github.masahitojp.app._
-import org.scalatra._
+import org.scalatra.LifeCycle
 import javax.servlet.ServletContext
 
 /**

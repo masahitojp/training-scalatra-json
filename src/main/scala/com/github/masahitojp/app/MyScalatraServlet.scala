@@ -1,12 +1,12 @@
 package com.github.masahitojp.app
 
-import org.scalatra._
-import scalate.ScalateSupport
-import liftjson.LiftJsonSupport
+import format.Person
+import org.scalatra.scalate.ScalateSupport
+import org.scalatra.ScalatraServlet
 
 import net.liftweb.json._
+import org.scalatra.liftjson.LiftJsonSupport
 
-case class Person(id: Long, name: String, age: Int)
 
 class MyScalatraServlet extends ScalatraServlet with ScalateSupport with LiftJsonSupport {
 
