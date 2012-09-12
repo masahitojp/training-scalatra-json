@@ -1,3 +1,5 @@
+[![Build Status](https://secure.travis-ci.org/masahitojp/training-scalatra-json.png)](http://travis-ci.org/masahitojp/training-scalatra-json)
+
 1. Launch [SBT](http://www.scala-sbt.org/).
 
 ```
